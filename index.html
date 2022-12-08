@@ -11,6 +11,73 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <h1>Register Form</h1>
+    <form action="">
+        <div class="firstname">
+            <label for="firstname">Firstname:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Your First Name:" required>
+
+        </div>
+        <div class="lastname">
+            <label for="lastname">Last Name:</label>
+            <input class="inputs" type="text" name="lastname" id="lastname" placeholder="Your last name :" required>
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <input class="inputs" type="email" name="email" id="email" placeholder="Your Email :" required>
+        </div>
+        <div class="password">
+            <label for="password">password</label>
+            <input class="inputs" type="password" name="password" id="password" placeholder="Your Password :" required>
+        </div>
+
+        <div class="dob">
+            <label for="dob">Day of Birth</label>
+            <input class="inputs" type="date" name="dob" id="dob" min="2020-01-01" value="2020-01-01" placeholder="Your Birthday :" required>
+        </div>
+        <div class="phone">
+            <label for="phone">Phone</label>
+            <input class="inputs" type="tel" name="phone" id="phone" placeholder="Your Phone Number:" required>
+        </div>
+
+        <div class="textarea-div">
+            <label for="address">Address</label>
+            <textarea class="inputs" name="address" id="address" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select class="inputs" name="country" id="country">
+                <option value="Turkey">Turkey</option>
+                <option value="Germany">Germany</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+          </select>
+          
+        </div>
+        <div >
+            <label for="gender">Gender</label>
+            <div class="gender-div">
+                <input class="radio-check" type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input class="radio-check" type="radio" name="gender" id="female" checked>
+                <label for="female">Female</label>
+            </div>
+           
+        </div>
+        <label for="languages">Languages</label>
+        <div class="lang-div">
+            <input class="radio-check" type="checkbox" name="lang" id="Turkce" checked>
+        <label for="Turkce">Turkce</label>
+        <input class="radio-check" type="checkbox" name="lang" id="english">
+        <label for="english">English</label>
+        <input class="radio-check" type="checkbox" name="lang" id="francais">
+        <label for="francais">Francais</label>
+        </div>
+        
+        <div class="btn-container">
+            <input type="submit" value="Save">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
 </body>
 </html>
