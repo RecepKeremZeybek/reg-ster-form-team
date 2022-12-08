@@ -54,7 +54,7 @@
   .radio-check{
       margin-bottom: 20px;
       /* margin-left: 10px; */
-  /* }
+  }
   .btn-container{
       text-align: center;
   }
@@ -69,7 +69,7 @@
       background-color: hsl(299,100%,40%);
       color: aliceblue;
       font-weight:700;
-      cursor: pointer; */
+      cursor: pointer; 
   }
   .textarea-div *{
       vertical-align: middle;
